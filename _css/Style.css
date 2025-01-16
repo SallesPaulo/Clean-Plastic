@@ -1,0 +1,184 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+    
+}
+
+header {
+	background-color: #156082;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px;
+    
+}
+
+.sidebar {
+	position: fixed;
+	top: 40px;
+	left: -200px;
+	width: 200px;
+	height: 100%;
+	background-color: #156082;
+	transition: all 0.3s ease-in-out;
+    padding-top: 15px;
+}
+img{
+    max-width: 117px;
+}
+
+.sidebar.show {
+	left: 0;
+}
+
+main {
+	margin-top: 60px;
+	margin-left: 250px;
+	padding: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 15px;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #FED049;
+}
+
+#toggle-btn {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	margin-right: 10px;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+#toggle-btn span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px 0;
+    
+}
+
+#toggle-btn.dark span {
+	background-color: #FB2576;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    font-size: 20px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.card img {
+    max-width: 170px;
+    padding-left: 75px;
+}
+.card h2 {
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    font-weight: 300;
+}
+.card h2 a{
+    text-decoration: none;
+}
+header h3{
+    font-weight: 400;
+    font-size: 19px;
+}
+.Quadro {
+    font-size: 10px;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}.Quadro img {
+    max-width: 100px;
+    padding-left: 60px;
+}
+.Quadro h2 {
+    text-align: center;
+}
+.Quadro p{
+    text-align: center;
+    font-weight: 400;
+}
+.Quadro h2 a{
+    text-decoration: none;
+}
+
+.Plastic {
+    font-size: 20px;
+    width: 600px;
+    margin: 10px;
+    padding: 50px;
+	border: 0px solid #ccc;
+    box-shadow: 0 0 10px rgba(202, 21, 21, 0.2);
+    border-radius: 0px;
+}
+.Plastic img {
+    max-width: 600px;
+    padding-left: 0px;
+}
+.Plastic h2 {
+    text-align: center;
+	font-weight: 0;
+	flex-direction:  10px;
+	color: crimson;
+	
+}
+
+.PlasticPode {
+	right: 700px;
+    font-size: 20px;
+    width: 600px;
+    margin: 10px;
+    padding: 50px;
+	border: 0px solid #ccc;
+    box-shadow: 0 0 10px rgba(72, 164, 10, 0.2);
+    border-radius: 0px;
+}
+.PlasticPode img {
+    max-width: 600px;
+    padding-right: 800px;
+}
+.PlasticPode h2 {
+    text-align: center;
+	font-weight: 10;
+	flex-direction:  10px;
+	color: green;
+	
+}
+

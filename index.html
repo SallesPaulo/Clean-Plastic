@@ -1,0 +1,76 @@
+<html>
+	<link rel="icon" type="image/png" href="logistica.png">
+	<title>CLEANPLASTIC_REQUISIÇÕES</title>
+	<link rel="stylesheet" href="_css/Style.css">
+</head>
+<body>
+
+	<header>
+		<img src="_imagens/Logo Clen Azul.png" alt="Logo">
+		<h3>CLEAN PLASTIC - CLEAN BOTLLE</h3>
+		<button id="toggle-btn"><span></span></button>
+	</header>
+
+	<div class="sidebar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+            <li><a href="https://forms.office.com/r/gc3N3jfN8T">Agende Entrega</a></li>
+             <li><a href="index_cadastro.html">Cadastre Pessoa Física</a></li>	
+			 <li><a href="fale-conosco.html">Informações Fornecedores</a></li>
+			
+		</ul>
+	</div>
+	<div class="container">
+		<div class="card">
+			<img src="_imagens/Entrega.PNG">
+			<h2><a href=https://forms.office.com/r/gc3N3jfN8T>Agende sua entrega</a></h2>
+			<p>Click para agendar sua entrega</p>
+		</div>
+
+		<div class="card">
+			<img src="_imagens/Cadastro.PNG">
+			<h2><a href=https://forms.office.com/r/H0dDr1Vp2G>Faça seu cadastro pessoa física</a></h2>
+			<p>Click para realizar seu cadastro de pessoa física para emissão da nota fiscal</p>
+		</div>
+
+		<div class="card">
+			<img src="_imagens/Informação.PNG">
+			<h2><a href="fale-conosco.html">Informações ao Fornecedor</a></h2>
+			<p>Procedimentos e normas do Grupo Clean Plastic</p>
+		</div>
+			
+	</div>
+
+	
+
+	<main>
+		<!-- main content goes here -->
+	</main>
+
+	<script src="script.js"></script>
+    <script>
+        const toggleBtn = document.getElementById('toggle-btn');
+const sidebar = document.querySelector('.sidebar');
+
+toggleBtn.addEventListener('click', () => {
+	sidebar.classList.toggle('show');
+});
+
+toggleBtn.addEventListener('click', () => {
+	document.body.classList.toggle('dark-theme');
+	toggleBtn.classList.toggle('dark');
+});
+
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+	document.body.classList.add('dark-theme');
+	toggleBtn.classList.add('dark');
+}
+    </script>
+	<script>
+		
+		
+	</script>
+
+
+
+</body></html>
